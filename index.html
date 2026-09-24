@@ -2,13 +2,23 @@
 <html lang="pt-br">
 
 <head>
+        
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Fashion Page</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
 
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="stylesheet" href="index.css" />
+                      <style type="text/tailwindcss">
+        @theme {
+            --font-sans: "Poppins", sans-serif;
+        }
+    </style>
+        <title>Fashion Page</title>
 </head>
 
 <body class="bg-white text-black font-sans antialiased">
@@ -139,7 +149,45 @@
                 </a>
             </div>
         </section>
+      
+        <section id="amarelo"
+            class="font-sans min-h-screen overflow-hidden flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 px-5 py-10 md:px-10
+                   bg-[linear-gradient(1.32deg,#E0C340_0.13%,#DFC23E_3.97%,#E1C441_7.2%,#E3C743_10.13%,#E4C542_12.98%,#E6C744_15.99%,#E7C845_19.52%,#E5C643_23.96%,#E6C945_30.43%,#E3C743_36.49%,#E9CA48_42.49%,#EDCE49_49.35%,#F0D44C_55.42%,#F4D84F_61.43%,#F6DA52_65.74%,#F7DB53_72.23%,#F9DD55_77.43%,#F9DF56_83.84%,#FAE157_91.52%,#F9DF56_97.87%)]">
 
+            <div class="relative w-full max-w-[500px] md:max-w-[900px]">
+
+                <img id="garota" class="w-full h-full left-0" src="/Assets/image 12.png" alt="image woman">
+
+                <img class="absolute w-[6%] rotate-20 left-[18%] top-[8%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[8%] rotate-40 left-[20%] top-[65%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[6%] rotate-60 left-[88%] top-[70%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[8%] rotate-20 right-[18%] top-[20%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+            </div>
+
+            <div class="Pay relative z-10 max-w-[560px] text-center md:text-left order-first md:order-none">
+
+                <h1 class="relative z-1 inline-block font-black text-[clamp(48px,14vw,110px)] leading-[1.1] px-3 mt-[30px] mb-10 pt-20">
+                    <span class="absolute inset-x-0 inset-y-[8%] bg-white -rotate-3 -z-1"></span>
+                    PAYDAY
+                </h1>
+
+                <h2 class="text-[clamp(32px,9vw,68px)] font-normal text-black mt-2">SALE NOW</h2>
+
+                <h4 class="text-[clamp(14px,4vw,20px)] font-normal text-black mt-2">
+                    Spend minimal $100 get 30% off voucher code for your next purchase
+                </h4>
+                <h4 class="text-[clamp(14px,4vw,20px)] font-normal text-black mt-2">1 June - 10 June 2021</h4>
+
+                <h5 class="text-[clamp(12px,3vw,15px)] font-normal text-black mt-2">*Terms &amp; Conditions apply</h5>
+
+                <div>
+                    <a href="#"
+                        class="inline-block mt-6 px-8 py-3 text-white bg-black rounded-[8.14px] no-underline font-semibold cursor-pointer">
+                        SHOP NOW
         <section id="app-bruna" class="flex flex-col lg:flex-row items-center lg:gap-20 max-w-6xl mx-auto px-6 py-16">
             <div class="flex-1 text-center lg:text-left">
                 <h1 class="text-3xl md:text-5xl font-black leading-tight">
@@ -219,6 +267,9 @@
                 </div>
             </div>
 
+
+        </section>
+
             <div class="flex flex-col sm:flex-row gap-16 md:gap-28">
                 <div>
                     <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">
@@ -255,6 +306,7 @@
 
                 </div>
     </footer>
+ 
 </body>
 
 </html>
