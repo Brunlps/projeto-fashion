@@ -1,5 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
 
-* {
+/* * {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+#amarelo {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: 900;
+    font-size: clamp(48px, 14vw, 110px);
+    line-height: 1.1;
+    padding: 0 12px;
+    margin-top: 30px;
+}
+
+.faixa {
+    position: absolute;
+    inset: 8% 0;
+    background: white;
+    transform: rotate(-3deg);
+    z-index: -1;
+}
+
+h2 {
+    font-size: clamp(32px, 9vw, 68px);
+    font-weight: 400;
+    color: black;
+    margin-top: 8px;
+}
+
+h4 {
+    font-size: clamp(14px, 4vw, 20px);
+    font-weight: 400;
+    color: black;
+    margin-top: 8px;
+}
+
+h5 {
+    font-size: clamp(12px, 3vw, 15px);
+    font-weight: 400;
+    color: black;
+    margin-top: 8px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 12px 32px;
+    color: #fff;
+    background-color: black;
+    border-radius: 8.14px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+} */

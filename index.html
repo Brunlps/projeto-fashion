@@ -1,14 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <title>Document</title>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
 
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="index.css" />
+                      <style type="text/tailwindcss">
+        @theme {
+            --font-sans: "Poppins", sans-serif;
+        }
+    </style>
+        <title>Fashion Page</title>
 </head>
 
 <body>
@@ -62,10 +72,220 @@
         </div>
 
     </section>
+<body class="bg-white text-black font-sans antialiased">
+    <header
+        class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 lg:px-25 pt-6 md:pt-[50px] gap-6">
+        <a href="#" class="flex items-center gap-2">
+            <img src="assets/Vector.png" alt="Fashion Logo" class="h-6 w-auto" />
+            <h1 class="text-2xl font-black tracking-wider">FASHION</h1>
+        </a>
 
+        <nav
+            class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 md:gap-16 font-medium text-xs sm:text-sm tracking-wide">
+            <a href="#" class="hover:text-gray-600 transition">CATALOGUE</a>
+            <a href="#" class="hover:text-gray-600 transition">FASHION</a>
+            <a href="#" class="hover:text-gray-600 transition">FAVOURITE</a>
+            <a href="#" class="hover:text-gray-600 transition">LIFESTYLE</a>
+            <a href="#"
+                class="bg-black text-white rounded-lg px-4 py-2 sm:px-5 sm:py-2.5 hover:bg-gray-800 transition">SIGN
+                UP</a>
+        </nav>
+    </header>
+
+    <main class="px-4 sm:px-8">
+        <section id="secao1"
+            class="flex flex-col lg:flex-row items-center justify-between bg-[#F4F6F5] rounded-[32px] md:rounded-[59px] mx-auto max-w-7xl mt-6 md:mt-10 p-6 sm:p-10 lg:p-16 gap-8 overflow-hidden">
+            <div class="max-w-xl text-center lg:text-left">
+                <h1
+                    class="isolate text-3xl sm:text-5xl lg:text-[64px] font-[900] leading-[1.2] lg:leading-[1.15] tracking-tight">
+                    <span class="relative inline-block px-3 py-1 sm:px-4">
+                        <span class="absolute inset-0 bg-white -rotate-2 z-0 rounded-xs"></span>
+                        <span class="relative z-10">LET’S</span>
+                    </span>
+                    <br />
+
+                    EXPLORE
+                    <br />
+
+                    <span class="relative inline-block px-3 py-1 sm:px-4 my-1">
+                        <span class="absolute inset-0 bg-[#EBD968] -rotate-2 z-0 rounded-xs"></span>
+                        <span class="relative z-10">UNIQUE</span>
+                    </span>
+                    <br />
+
+                    CLOTHES.
+                </h1>
+
+                <p class="text-gray-600 font-normal text-base sm:text-lg lg:text-xl mt-4 sm:mt-6 tracking-wide">
+                    Live for Influential and Innovative fashion!
+                </p>
+
+                <div class="flex items-center justify-center lg:justify-start gap-3 sm:gap-4 mt-6 sm:mt-8">
+                    <img src="./assets/Vector 9.png" alt="" class="h-4 sm:h-6 w-auto object-contain" />
+                    <a href="#"
+                        class="bg-black text-white text-sm sm:text-lg font-medium rounded-lg px-6 py-2.5 sm:px-8 sm:py-3 hover:bg-gray-800 transition shadow-md">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-auto flex justify-center shrink-0">
+                <img src="./assets/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png"
+                    alt="Fashion Model"
+                    class="w-full max-w-[320px] sm:max-w-[420px] lg:max-w-[500px] h-auto object-contain" />
+            </div>
+        </section>
+        <section id="jones">
+            <div class="bg-[#EBD96B]">
+                <ul class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 place-items-center gap-6 py-6 px-4">
+                    <li><a href=""><img src="./assets/H&M.png" alt="h&m" class="mix-blend-multiply"></a></li>
+                    <li><a href=""><img src="./assets/obey.png" alt="obey" class="mix-blend-multiply"></a></li>
+                    <li><a href=""><img src="./assets/shopify.png" alt="shopify" class="mix-blend-multiply"></a></li>
+                    <li><a href=""><img src="./assets/lacoste.png" alt="lacoste" class="mix-blend-multiply"></a></li>
+                    <li><a href=""><img src="./assets/levis.png" alt="levis" class="mix-blend-multiply"></a></li>
+                    <li><a href=""><img src="./assets/amazon.png" alt="amazon" class="mix-blend-multiply"></a></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section id="sectionjoe"
+            class="mt-2 w-full flex flex-col items-center lg:grid lg:grid-cols-3 lg:justify-items-stretch">
+            <div class="w-full flex justify-center lg:justify-start lg:col-span-3 px-4 lg:px-12">
+                <h2 class="text-[20px] font-bold mt-6 mb-4 lg:mb-6">New Arrivals</h2>
+            </div>
+            <div class="mb-3 lg:mb-2 xl-size150 w-full flex flex-col items-center px-4 lg:px-12">
+                <a href="#" class="block w-full">
+                    <img class="rounded-4xl 2xl:size-full mt-1 mb-1 w-full size-100 lg:aspect-3/4 object-cover object-[80%_100%] lg:object-[70%_75%]"
+                        src="./assets/sc3image1.png" alt="">
+                    <div class="flex justify-between items-center px-4">
+                        <div>
+                            <h3 class="text-[16px] font-bold">Hoodies & Sweetshirt</h3>
+                            <p>Explore Now!</p>
+                        </div>
+                        <div>
+                            <img src="./assets/sc3arrow1.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mb-3 lg:mb-2 xl-size150 w-full flex flex-col items-center px-4 lg:px-12">
+                <a href="#" class="block w-full">
+                    <img class="rounded-4xl mt-1 mb-1 w-full size-100 2xl:size-full lg:aspect-3/4 object-cover object-[30%_100%] lg:object-[38%_75%]"
+                        src="./assets/sc3image2.png" alt="">
+                    <div class="flex justify-between items-center px-4">
+                        <div>
+                            <h3 class="text-[16px] font-bold">Coats & Parkas</h3>
+                            <p>Explore Now!</p>
+                        </div>
+                        <div>
+                            <img src="./assets/sc3arrow1.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mb-3 lg:mb-2 xl-size150 w-full flex flex-col items-center px-4 lg:px-12">
+                <a href="#" class="block w-full">
+                    <img class="rounded-4xl 2xl:size-full mt-1 mb-1 w-full size-100 lg:aspect-3/4 object-cover object-center"
+                        src="./assets/sc3image3.png" alt="">
+                    <div class="flex justify-between items-center px-4">
+                        <div>
+                            <h3 class="text-[16px] font-bold">Coats & Parkas</h3>
+                            <p>Explore Now!</p>
+                        </div>
+                        <div>
+                            <img src="./assets/sc3arrow1.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+      
+        <section id="amarelo"
+            class="font-sans min-h-screen overflow-hidden flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 px-5 py-10 md:px-10
+                   bg-[linear-gradient(1.32deg,#E0C340_0.13%,#DFC23E_3.97%,#E1C441_7.2%,#E3C743_10.13%,#E4C542_12.98%,#E6C744_15.99%,#E7C845_19.52%,#E5C643_23.96%,#E6C945_30.43%,#E3C743_36.49%,#E9CA48_42.49%,#EDCE49_49.35%,#F0D44C_55.42%,#F4D84F_61.43%,#F6DA52_65.74%,#F7DB53_72.23%,#F9DD55_77.43%,#F9DF56_83.84%,#FAE157_91.52%,#F9DF56_97.87%)]">
+
+            <div class="relative w-full max-w-[500px] md:max-w-[900px]">
+
+                <img id="garota" class="w-full h-full left-0" src="/Assets/image 12.png" alt="image woman">
+
+                <img class="absolute w-[6%] rotate-20 left-[18%] top-[8%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[8%] rotate-40 left-[20%] top-[65%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[6%] rotate-60 left-[88%] top-[70%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+                <img class="absolute w-[8%] rotate-20 right-[18%] top-[20%] animate-bounce pointer-events-none"
+                    src="/Assets/Star 5 (1).png" alt="estrelas">
+            </div>
+
+            <div class="Pay relative z-10 max-w-[560px] text-center md:text-left order-first md:order-none">
+
+                <h1 class="relative z-1 inline-block font-black text-[clamp(48px,14vw,110px)] leading-[1.1] px-3 mt-[30px] mb-10 pt-20">
+                    <span class="absolute inset-x-0 inset-y-[8%] bg-white -rotate-3 -z-1"></span>
+                    PAYDAY
+                </h1>
+
+                <h2 class="text-[clamp(32px,9vw,68px)] font-normal text-black mt-2">SALE NOW</h2>
+
+                <h4 class="text-[clamp(14px,4vw,20px)] font-normal text-black mt-2">
+                    Spend minimal $100 get 30% off voucher code for your next purchase
+                </h4>
+                <h4 class="text-[clamp(14px,4vw,20px)] font-normal text-black mt-2">1 June - 10 June 2021</h4>
+
+                <h5 class="text-[clamp(12px,3vw,15px)] font-normal text-black mt-2">*Terms &amp; Conditions apply</h5>
+
+                <div>
+                    <a href="#"
+                        class="inline-block mt-6 px-8 py-3 text-white bg-black rounded-[8.14px] no-underline font-semibold cursor-pointer">
+                        SHOP NOW
+        <section id="app-bruna" class="flex flex-col lg:flex-row items-center lg:gap-20 max-w-6xl mx-auto px-6 py-16">
+            <div class="flex-1 text-center lg:text-left">
+                <h1 class="text-3xl md:text-5xl font-black leading-tight">
+                    DOWNLOAD APP & <br />
+                    GET THE VOUCHER!
+                </h1>
+                <p class="mt-6 text-gray-500 md:text-lg max-w-md mx-auto lg:mx-0">
+                    Get 30% off for first transaction using Rondovision mobile app for
+                    now.
+                </p>
+                <div class="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
+                    <a href="#"><img src="assets/Rectangle 55.png" alt="Download on the App Store"
+                            class="h-12 md:h-14" /></a>
+                    <a href="#"><img src="assets/Rectangle 18.png" alt="Get it on Google Play"
+                            class="h-12 md:h-14" /></a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <img src="assets/Group 84.png" alt="Tela do app Rondovision"
+                    class="w-full max-w-xs md:max-w-sm lg:max-w-md" />
+            </div>
+        </section>
+
+
+
+
+        <section id="seção 6"
+            class="bg-[#E5C643] w-full py-20 md:py-32 flex flex-col items-center justify-center text-center px-4">
+            <h2 class="text-white font-black text-[32px] md:text-[55px] leading-[1.1] tracking-wide uppercase">
+                JOIN SHOPPING COMMUNITY TO<br>GET MONTHLY PROMO
+            </h2>
+            <p class="text-white font-light mt-4 text-[16px] md:text-[20px]">
+                Type your email down below and be young wild generation
+            </p>
+
+            <div class="mt-8 bg-white rounded-[10px] p-1.5 flex items-center w-full max-w-[500px]">
+                <input type="email" placeholder="Add your email here"
+                    class="flex-1 bg-transparent outline-none px-6 py-2.5 text-[14px] text-gray-700 placeholder:text-[#767676]" />
+                <button
+                    class="bg-black text-white font-bold text-[14px] px-8 py-3 rounded-[9px] hover:bg-zinc-900 transition cursor-pointer">
+                    SEND
+                </button>
+            </div>
+        </section>
+    </main>
     <footer class="bg-black text-white w-full py-16 px-6 md:px-20 lg:px-[100px]">
         <div class="flex flex-col md:flex-row justify-between gap-12">
-
             <div class="max-w-[290px]">
                 <h3 class="font-black text-[28px] tracking-wider">FASHION</h3>
                 <p class="text-[#8E8E8E] text-[14px] leading-[22px] mt-5">
@@ -75,25 +295,25 @@
                     <!-- Facebook -->
                     <a href="#"
                         class="w-[28px] h-[28px] bg-[#E6C744] rounded-[7px] flex items-center justify-center hover:bg-white transition">
-                        <box-icon type='logo' name='facebook' color="black" size="18px"></box-icon>
+                        <box-icon type="logo" name="facebook" color="black" size="18px"></box-icon>
                     </a>
 
                     <!-- Instagram -->
                     <a href="#"
                         class="w-[28px] h-[28px] bg-[#E6C744] rounded-[7px] flex items-center justify-center hover:bg-white transition">
-                        <box-icon type='logo' name='instagram' color="black" size="18px"></box-icon>
+                        <box-icon type="logo" name="instagram" color="black" size="18px"></box-icon>
                     </a>
 
                     <!-- Twitter -->
                     <a href="#"
                         class="w-[28px] h-[28px] bg-[#E6C744] rounded-[7px] flex items-center justify-center hover:bg-white transition">
-                        <box-icon type='logo' name='twitter' color="black" size="18px"></box-icon>
+                        <box-icon type="logo" name="twitter" color="black" size="18px"></box-icon>
                     </a>
 
                     <!-- LinkedIn -->
                     <a href="#"
                         class="w-[28px] h-[28px] bg-[#E6C744] rounded-[7px] flex items-center justify-center hover:bg-white transition">
-                        <box-icon type='logo' name='linkedin' color="black" size="18px"></box-icon>
+                        <box-icon type="logo" name="linkedin" color="black" size="18px"></box-icon>
                     </a>
                 </div>
             </div>
@@ -102,6 +322,14 @@
 
                 <div>
                     <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">Company</h4>
+
+        </section>
+
+            <div class="flex flex-col sm:flex-row gap-16 md:gap-28">
+                <div>
+                    <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">
+                        Company
+                    </h4>
                     <ul class="mt-6 flex flex-col gap-5 text-[#8E8E8E] text-[14px]">
                         <li><a href="#" class="hover:text-white">About</a></li>
                         <li><a href="#" class="hover:text-white">Contact us</a></li>
@@ -111,6 +339,9 @@
                 </div>
                 <div>
                     <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">Quick Link</h4>
+                    <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">
+                        Quick Link
+                    </h4>
                     <ul class="mt-6 flex flex-col gap-5 text-[#8E8E8E] text-[14px]">
                         <li><a href="#" class="hover:text-white">Share Location</a></li>
                         <li><a href="#" class="hover:text-white">Orders Tracking</a></li>
@@ -128,7 +359,19 @@
 
             </div>
         </div>
+                    <h4 class="text-[#D9D9D9] text-[14px] font-normal tracking-wide">
+                        Legal
+                    </h4>
+                    <ul class="mt-6 flex flex-col gap-5 text-[#8E8E8E] text-[14px]">
+                        <li>
+                            <a href="#" class="hover:text-white">Terms & conditions</a>
+                        </li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
     </footer>
+ 
 </body>
 
 </html>
